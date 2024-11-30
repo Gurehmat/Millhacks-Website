@@ -4,9 +4,9 @@
 :root {
   --header-height: 3rem;
   /*========== Colors ==========*/
-  --hue: 45;
-  --sat: 98%;
-  --first-color: hsl(var(--hue), var(--sat), 60%);
+  --hue: 128;
+  --sat: 80%;
+  --first-color: hsl(var(--hue), var(--sat), 76%);
   --first-color-light: hsl(var(--hue), var(--sat), 85%);
   --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
   --first-color-alt: hsl(var(--hue), var(--sat), 53%);
@@ -148,6 +148,10 @@ body.dark-theme {
 
 .svg__blob {
   fill: var(--first-color-light);
+}
+
+.drone_img {
+  transform: scale(2.4x);
 }
 
 .svg__img {
@@ -311,13 +315,20 @@ body.dark-theme {
 }
 
 /*=============== SECURITY ===============*/
+
+.satellite__container * {
+  width: 100%;
+}
+
 .security__container {
   gap: 2.5rem;
+  width: 100%;
 }
 
 .security__data {
   text-align: center;
 }
+
 
 /*=============== SERVICES ===============*/
 .services__container {
@@ -480,6 +491,9 @@ body.dark-theme {
   background-color: var(--text-color-light);
 }
 
+* {box-sizing:border-box}
+
+
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 360px) {
@@ -526,7 +540,6 @@ body.dark-theme {
   }
   .home__container,
   .about__container,
-  .security__container,
   .app__container,
   .contact__container {
     align-items: center;
