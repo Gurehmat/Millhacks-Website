@@ -16,9 +16,10 @@ This project was built for fast communication under hackathon constraints, with 
 
 - Why coastal plastic pollution is urgent.
 - How spectral imagery can detect likely debris concentration.
-- How machine learning can rank hotspots for action.
+- How a machine-learning trash-recognition approach can classify items as trash/non-trash and support prioritization.
+- How a 3D prototype/model (created with Shap3r) supports concept visualization.
 - How drones can support shoreline cleanup workflows.
-- A clear call-to-action for demos, collaboration, and contact.
+- A clear call-to-action for demos, collawboration, and contact.
 
 ## My Focus & Contributions
 
@@ -26,6 +27,16 @@ This project was built for fast communication under hackathon constraints, with 
 - Structured content into quick, scannable sections for rapid decision-making.
 - Built the full front-end with reusable SCSS component structure.
 - Deployed the project as a static site for simple, reliable access.
+
+## ML Component Clarification
+
+- The trash-recognition ML algorithm was a project/team component used in the concept.
+- I did **not** personally implement that model code.
+- The ML training/inference code is not included in this repository.
+
+## 3D Model Note
+
+- The project also included a 3D model created through Shap3r as part of the concept demo.
 
 ## Tech Stack
 
