@@ -2,42 +2,47 @@
 
 **Live:** [https://gurehmat.github.io/Millhacks-Website/](https://gurehmat.github.io/Millhacks-Website/)
 
-## Overview
+## Portfolio Summary
 
-Single-page, public site for a MillHacks submission. It explains **SEED**, a concept to identify and remove coastal plastic pollution using **satellite spectral imagery**, **machine-learning prioritization**, and **drone-based collection**. Purpose: communicate the problem, approach, and contact details.
+SEED is a single-page hackathon project website I designed and built to present a climate-tech concept focused on reducing coastal plastic pollution. The site explains an end-to-end idea: using satellite spectral imagery to identify plastic-heavy shoreline zones, machine learning to prioritize cleanup targets, and drone-based systems to support collection planning.
 
-## Content
+This project was built for fast communication under hackathon constraints, with an emphasis on clear storytelling, responsive UX, and visual hierarchy.
 
-* **Why this matters** — impact of coastal plastic accumulation.
-* **Spectral Imagery** — mapping high-risk coastlines from satellite data.
-* **Machine Learning** — ranking hotspots and triaging cleanup routes.
-* **Innovative Drones** — shoreline collection method and deployment notes.
-* **Call to Action** — demo/video placeholder and contact information.
+## Award
 
-## Audience
+🏆 **Best UI at MillHacks** — this project received the Best UI award for its design clarity, usability, and presentation quality.
 
-* Hackathon judges and partners evaluating the concept.
-* Students/collaborators needing a fast overview.
-* Potential sponsors or stakeholders interested in pilots.
+## What the Site Communicates
 
-## Non-Goals
+- Why coastal plastic pollution is urgent.
+- How spectral imagery can detect likely debris concentration.
+- How machine learning can rank hotspots for action.
+- How drones can support shoreline cleanup workflows.
+- A clear call-to-action for demos, collaboration, and contact.
 
-* No backend, data pipeline, or live satellite integrations.
-* No operational drone control interface.
-* No user accounts or form handling (static content only).
+## My Focus & Contributions
 
-## Design / UX
+- Designed a clean, modern, mobile-first interface optimized for judges and sponsors.
+- Structured content into quick, scannable sections for rapid decision-making.
+- Built the full front-end with reusable SCSS component structure.
+- Deployed the project as a static site for simple, reliable access.
 
-* Mobile-first, responsive landing page.
-* Section-based narrative with clear headings and CTAs.
-* Skimmable layout for quick decision-making.
+## Tech Stack
 
-## Tech (high-level)
+- **HTML5**
+- **CSS3**
+- **SCSS (Sass)** with modular partials (base, components, layout, theme)
+- **Vanilla JavaScript**
+- **GitHub Pages** for hosting
 
-* Static stack: **HTML**, **CSS/SCSS**, **Vanilla JavaScript**.
-* Hosted on **GitHub Pages**.
+## Scope
 
-## Status & Next Steps
+- Static informational website (no backend or database).
+- No live satellite ingestion or real-time ML pipeline in this version.
+- No production drone-control interface.
 
-* Current: public info page for the SEED concept.
-* Suggested next steps: link real demo video, add simple data visuals, optional contact form (EmailJS/Netlify Forms), and a short technical write-up of the ML pipeline and drone ops assumptions.
+## Next Iteration Ideas
+
+- Embed real demo footage and interaction walkthrough.
+- Add lightweight data visualizations for hotspot prioritization.
+- Include a concise technical appendix for model assumptions and operations.
